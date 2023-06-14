@@ -5,7 +5,7 @@ Write a program to enter the values to the variable length and breadth and print
 import java.util.Scanner;
 
 public class Program19 {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the length: ");
         double length = sc.nextDouble();
