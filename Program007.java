@@ -3,7 +3,7 @@
  09/06/23 */
 
 public class Program7 {
-  public static void main(String args[]) {
+  public static void main() {
     double m = 4.5;
     int v = 10;
     double ke = 1.0 / 2 * m * v * v;

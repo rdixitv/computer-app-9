@@ -3,7 +3,7 @@ Write a program to assign values to byte, short, int, float, double, long, boole
 05/06/23 */
 
 public class Program4 {
-  public static void main(String[] args) {
+  public static void main() {
     byte b = 1;
     short s = 2;
     int n = 3;

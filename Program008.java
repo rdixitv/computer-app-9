@@ -3,7 +3,7 @@
    09/06/23 */
 
 public class Program8 {
-  public static void main(String[] args) {
+  public static void main() {
     int u = 9, t = 0, h = 4;
     int res = 100 * h + 10 * t + u;
     System.out.println("The number is: " + res);

@@ -3,7 +3,7 @@
  09/06/23 */
 
 public class Program6 {
-  public static void main(String[] args) {
+  public static void main() {
     char ch = 'C';
     System.out.println("Lowercase character: " + (char)(ch + 32));
   }

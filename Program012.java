@@ -3,7 +3,7 @@ Write a program to assign values to variables principle and time. If time is mor
 12/06/23 */
 
 public class Program12 {
-    public static void main(String[] args) {
+    public static void main() {
         double principle = 2304.5;
         double time = 3.0;
         int rate = time > 2.0 ? 8 : 12;
