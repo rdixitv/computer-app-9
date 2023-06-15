@@ -1,0 +1,280 @@
+#+title: Variable Listing and Output
+
+* Table of contents :toc:
+- [[#0][0]]
+  - [[#output][Output]]
+- [[#1][1]]
+  - [[#output-1][Output]]
+- [[#2][2]]
+  - [[#output-2][Output]]
+- [[#3][3]]
+  - [[#output-3][Output]]
+- [[#4][4]]
+  - [[#variable-listing][Variable Listing]]
+  - [[#output-4][Output]]
+- [[#5][5]]
+  - [[#variable-listing-1][Variable Listing]]
+  - [[#output-5][Output]]
+- [[#6][6]]
+  - [[#variable-listing-2][Variable Listing]]
+  - [[#output-6][Output]]
+- [[#7][7]]
+  - [[#variable-listing-3][Variable Listing]]
+  - [[#output-7][Output]]
+- [[#8][8]]
+  - [[#variable-listing-4][Variable Listing]]
+  - [[#output-8][Output]]
+- [[#9][9]]
+  - [[#variable-listing-5][Variable Listing]]
+  - [[#output-9][Output]]
+- [[#10][10]]
+  - [[#variable-listing-6][Variable Listing]]
+  - [[#output-10][Output]]
+- [[#11][11]]
+  - [[#variable-listing-7][Variable Listing]]
+  - [[#output-11][Output]]
+- [[#12][12]]
+  - [[#variable-listing-8][Variable Listing]]
+  - [[#output-12][Output]]
+- [[#13][13]]
+  - [[#variable-listing-9][Variable Listing]]
+  - [[#output-13][Output]]
+- [[#14][14]]
+  - [[#variable-listing-10][Variable Listing]]
+  - [[#output-14][Output]]
+- [[#15][15]]
+  - [[#variable-listing-11][Variable Listing]]
+  - [[#output-15][Output]]
+- [[#16][16]]
+  - [[#variable-listing-12][Variable Listing]]
+  - [[#output-16][Output]]
+- [[#17][17]]
+  - [[#variable-listing-13][Variable Listing]]
+  - [[#output-17][Output]]
+- [[#18][18]]
+  - [[#variable-listing-14][Variable Listing]]
+  - [[#output-18][Output]]
+- [[#19][19]]
+  - [[#variable-listing-15][Variable Listing]]
+  - [[#output-19][Output]]
+
+* 0
+** Output
+#+begin_src
+Hello World
+#+end_src
+* 1
+** Output
+#+begin_src
+Decimal: 10
+Octal: 10
+Hexadecimal: 10
+#+end_src
+* 2
+** Output
+#+begin_src
+Fractional form: 5.8
+Exponential form: 5.8
+#+end_src
+* 3
+** Output
+#+begin_src
+C
+Coding is fun.
+#+end_src
+* 4
+** Variable Listing
+| Variable name | Data Type | Description            |
+|---------------+-----------+------------------------|
+| b             | byte      | Stores byte value      |
+| s             | short     | Stores short value     |
+| n             | int       | Stores integer value   |
+| l             | long      | Stores long value      |
+| f             | float     | Stores float value     |
+| d             | double    | Stores double value    |
+| bl            | boolean   | Stores boolean value   |
+| c             | char      | Stores character value |
+| str           | String    | Stores string value    |
+** Output
+#+begin_src
+Byte value: 1
+Short value: 2
+Int value: 3
+Long value: 4
+Float value: 5.2
+Double value: 5.3
+Boolean value: true
+Character value: C
+String value: string
+#+end_src
+* 5
+** Variable Listing
+| Variable name | Data Type | Description                              |
+|---------------+-----------+------------------------------------------|
+| n1            | int       | Stores first integer value for addition  |
+| n2            | int       | Stores second integer value for addition |
+| nres          | int       | Stores result of integer addition        |
+| d1            | double    | Stores first double value for addition   |
+| d2            | double    | Stores second double value for addition  |
+| dres          | double    | Stores result of double addition         |
+** Output
+Sum of integers: 30
+Sum of doubles: 1.1
+* 6
+** Variable Listing
+| Variable name | Data Type | Description                       |
+|---------------+-----------+-----------------------------------|
+| ch            | char      | Stores 'A' to change to lowercase |
+** Output
+#+begin_src
+Lowercase character: a
+#+end_src
+* 7
+** Variable Listing
+| Variable name | Data Type | Description               |
+|---------------+-----------+---------------------------|
+| m             | double    | Stores the mass           |
+| v             | int       | Stores the velocity       |
+| ke            | double    | Stores the kinetic energy |
+** Output
+#+begin_src
+Kinetic energy = 225.0
+#+end_src
+* 8
+** Variable Listing
+| Variable name | Data Type | Description                 |
+|---------------+-----------+-----------------------------|
+| u             | int       | Stores units place digit    |
+| t             | int       | Stores tens place digit     |
+| h             | int       | Stores hundreds place digit |
+| res           | int       | Stores the resulting number |
+** Output
+#+begin_src
+The number is: 409
+#+end_src
+* 9
+** Variable Listing
+| Variable name | Data Type | Description       |
+|---------------+-----------+-------------------|
+| age           | int       | Stores the age    |
+| res           | String    | Stores the result |
+** Output
+#+begin_src
+The person is a major
+#+end_src
+* 10
+** Variable Listing
+| Variable name | Data Type | Description                     |
+|---------------+-----------+---------------------------------|
+| standard      | int       | Stores the class of the student |
+| res           | String    | Stores the result               |
+** Output
+#+begin_src
+high school
+#+end_src
+* 11
+** Variable Listing
+| Variable name | Data Type | Description                     |
+|---------------+-----------+---------------------------------|
+| length        | double    | Stores the length of the shape  |
+| breadth       | double    | Stores the breadth of the shape |
+| res           | String    | Stores the result               |
+** Output
+#+begin_src
+The shape is a rectangle
+#+end_src
+* 12
+** Variable Listing
+| Variable name | Data Type | Description                |
+|---------------+-----------+----------------------------|
+| principle     | double    | Stores the principle       |
+| time          | double    | Stores the time            |
+| rate          | int       | Stores the rate            |
+| si            | double    | Stores the simple interest |
+** Output
+#+begin_src
+The simple interest is 553.08
+#+end_src
+* 13
+** Variable Listing
+| Variable Name | Data Type | Description       |
+|---------------+-----------+-------------------|
+| num           | int       | Stores a number   |
+| res           | int       | Stores the result |
+** Output
+#+begin_src
+The result is 27
+#+end_src
+* 14
+** Variable Listing
+| Variable Name | Data Type | Description       |
+|---------------+-----------+-------------------|
+| marks         | int       | Stores the marks  |
+| res           | String    | Stores the result |
+** Output
+#+begin_src
+The marks are excellent
+#+end_src
+* 15
+** Variable Listing
+| Variable Name | Data Type | Description                  |
+|---------------+-----------+------------------------------|
+| age           | int       | Stores the age of the person |
+| res           | String    | Stores the result            |
+** Output
+#+begin_src
+Enter the age of the person: 14
+The person is a minor
+#+end_src
+* 16
+** Variable Listing
+| Variable Name | Data Type | Description                     |
+|---------------+-----------+---------------------------------|
+| standard      | int       | Stores the class of the student |
+| res           | String    | Stores the result               |
+** Output
+#+begin_src
+Enter the class of the student: 9
+The student is in high school
+#+end_src
+* 17
+** Variable Listing
+| Variable Name | Data Type | Description                     |
+|---------------+-----------+---------------------------------|
+| u             | int       | Stores the units place digit    |
+| t             | int       | Stores the tens place digit     |
+| h             | int       | Stores the hundreds place digit |
+| res           | int       | Stores the resulting number     |
+** Output
+#+begin_src
+Enter a digit for the units place: 3
+Enter a digit for the tens place: 2
+Enter a digit for the hundreds place: 1
+The number is 123
+#+end_src
+* 18
+** Variable Listing
+| Variable Name | Data Type | Description                             |
+|---------------+-----------+-----------------------------------------|
+| m             | double    | Stores the mass of the object           |
+| v             | double    | Stores the velocity of the object       |
+| ke            | double    | Stores the kinetic energy of the object |
+** Output
+#+begin_src
+Enter the mass of the object: 4.5
+Enter the velocity of the object: 20
+The kinetic energy is 900.0
+#+end_src
+* 19
+** Variable Listing
+| Variable Name | Data Type | Description        |
+|---------------+-----------+--------------------|
+| length        | double    | Stores the length  |
+| breadth       | double    | Stores the breadth |
+| res           | String    | Stores the result  |
+** Output
+#+begin_src
+Enter the length: 12.5
+Enter the breadth: 10.2
+The shape is a rectangle
+#+end_src
