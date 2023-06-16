@@ -2,7 +2,7 @@
 Write a program to assign to the variable length and breadth and print if it is a square or a rectangle.
 12/06/23 */
 
-public class Program11 {
+public class Program011 {
     public static void main() {
         double breadth = 11.0, length = 9.8;
         String res = length == breadth ? "square" : "rectangle";

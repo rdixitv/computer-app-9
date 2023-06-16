@@ -4,7 +4,7 @@ Write a Java program to enter the value of mass and velocity and compute and pri
 
 import java.util.Scanner;
 
-public class Program18 {
+public class Program018 {
     public static void main() {
        Scanner sc = new Scanner(System.in);
        System.out.print("Enter the mass of the object: ");
@@ -13,5 +13,6 @@ public class Program18 {
        double v = sc.nextDouble();
        double ke = (1.0/2) * m * v * v; 
        System.out.println("The kinetic energy is " + ke);
+       sc.close();
     }
 }

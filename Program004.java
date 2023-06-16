@@ -2,7 +2,7 @@
 Write a program to assign values to byte, short, int, float, double, long, boolean, char & string. Print out these values with a valid prompt.
 05/06/23 */
 
-public class Program4 {
+public class Program004 {
   public static void main() {
     byte b = 1;
     short s = 2;

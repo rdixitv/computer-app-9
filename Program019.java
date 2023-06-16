@@ -4,7 +4,7 @@ Write a program to enter the values to the variable length and breadth and print
 
 import java.util.Scanner;
 
-public class Program19 {
+public class Program019 {
     public static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the length: ");
@@ -13,5 +13,6 @@ public class Program19 {
         double breadth = sc.nextDouble();
         String res = length == breadth ? "square" : "rectangle";
         System.out.println("The shape is a " + res);
+        sc.close();
     }
 }

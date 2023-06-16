@@ -7,7 +7,7 @@ Average   - >60
 Poor      - <=60
 12/06/23 */
 
-public class Program14 {
+public class Program014 {
     public static void main() {
         int marks = 100;
         String res = marks > 90 ? "excellent" :
