@@ -57,6 +57,18 @@
 - [[#19][19]]
   - [[#variable-listing-15][Variable Listing]]
   - [[#output-19][Output]]
+- [[#20][20]]
+  - [[#variable-listing-16][Variable Listing]]
+  - [[#output-20][Output]]
+- [[#21][21]]
+  - [[#variable-listing-17][Variable Listing]]
+  - [[#output-21][Output]]
+- [[#22][22]]
+  - [[#variable-listing-18][Variable Listing]]
+  - [[#output-22][Output]]
+- [[#23][23]]
+  - [[#variable-listing-19][Variable Listing]]
+  - [[#output-23][Output]]
 
 * 0
 ** Output
@@ -277,4 +289,53 @@ The kinetic energy is 900.0
 Enter the length: 12.5
 Enter the breadth: 10.2
 The shape is a rectangle
+#+end_src
+* 20
+** Variable Listing
+| Variable Name | Data Type | Description                 |
+|---------------+-----------+-----------------------------|
+| p             | double    | Stores the principle amount |
+| t             | int       | Stores the time (in years)  |
+| si            | double    | Stores the simple interest  |
+** Output
+#+begin_src
+Enter the principle amount: 1200
+Enter the time: 16
+The interest is 1536.0
+#+end_src
+* 21
+** Variable Listing
+| Variable Name | Data Type | Description       |
+|---------------+-----------+-------------------|
+| n             | int       | Stores the number |
+** Output
+#+begin_src
+Enter a number: 3
+The result is 27
+#+end_src
+* 22
+** Variable Listing
+| Variable Name | Data Type | Description                 |
+|---------------+-----------+-----------------------------|
+| s1            | double    | Stores the first side       |
+| s2            | double    | Stores the second side      |
+| s3            | double    | Stores the third side       |
+| res           | String    | Stores the type of triangle |
+** Output
+#+begin_src
+Enter the first side: 14.5
+Enter the second side: 14.5
+Enter the third side: 14.5
+The shape is an equilateral triangle.
+#+end_src
+* 23
+** Variable Listing
+| Variable Name | Data Type | Description       |
+|---------------+-----------+-------------------|
+| d             | int       | Stores the digit  |
+| res           | String    | Stores the result |
+** Output
+#+begin_src
+Enter a digit from 0 to 9: 3
+three
 #+end_src
