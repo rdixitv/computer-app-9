@@ -69,6 +69,15 @@
 - [[#23][23]]
   - [[#variable-listing-19][Variable Listing]]
   - [[#output-23][Output]]
+- [[#24][24]]
+  - [[#variable-listing-20][Variable Listing]]
+  - [[#output-24][Output]]
+- [[#25][25]]
+  - [[#variable-listing-21][Variable Listing]]
+  - [[#output-25][Output]]
+- [[#26][26]]
+  - [[#variable-listing-22][Variable Listing]]
+  - [[#output-26][Output]]
 
 * 0
 ** Output
@@ -338,4 +347,39 @@ The shape is an equilateral triangle.
 #+begin_src
 Enter a digit from 0 to 9: 3
 three
+#+end_src
+* 24
+** Variable Listing
+| Variable Name | Data Type | Description          |
+|---------------+-----------+----------------------|
+| ch            | char      | Stores the character |
+** Output
+#+begin_src
+Enter a character: C
+It is an uppercase character.
+#+end_src
+* 25
+** Variable Listing
+| Variable Name | Data Type | Description                |
+|---------------+-----------+----------------------------|
+| marks         | int       | Stores the student's marks |
+| res           | String    | Stores the result          |
+** Output
+#+begin_src
+Enter the student's marks: 100
+The marks are excellent.
+#+end_src
+* 26
+** Variable Listing
+| Variable Name | Data Type | Description               |
+|---------------+-----------+---------------------------|
+| n1            | int       | Stores the first number   |
+| n2            | int       | Stores the second number. |
+| n3            | int       | Stores the third number   |
+** Output
+#+begin_src
+Enter the first number: 10
+Enter the second number: 50
+Enter the third number: 15
+10, 15, 50
 #+end_src
