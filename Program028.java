@@ -3,7 +3,7 @@ Write a program to print the bill for the electricity office after entering the 
 <= 80 units      -> Rs. 250
 > 80 and <= 150  -> Rs. 2.00 for each extra unit
 > 150 and <= 250 -> Rs. 3.00 for each extra unit
-< 250            -> Rs. 5.00 for each extra unit
+> 250            -> Rs. 5.00 for each extra unit
 23/06/23 */
 
 import java.util.Scanner;
