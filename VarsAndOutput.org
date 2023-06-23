@@ -78,6 +78,12 @@
 - [[#26][26]]
   - [[#variable-listing-22][Variable Listing]]
   - [[#output-26][Output]]
+- [[#27][27]]
+  - [[#variable-listing-23][Variable Listing]]
+  - [[#output-27][Output]]
+- [[#28][28]]
+  - [[#variable-listing-24][Variable Listing]]
+  - [[#output-28][Output]]
 
 * 0
 ** Output
@@ -382,4 +388,31 @@ Enter the first number: 10
 Enter the second number: 50
 Enter the third number: 15
 10, 15, 50
+#+end_src
+* 27
+** Variable Listing
+| Variable Name | Data Type | Description                     |
+|---------------+-----------+---------------------------------|
+| n             | int       | Stores the entered number       |
+| u             | int       | Stores the units place digit    |
+| t             | int       | Stores the tens place digit     |
+| h             | int       | Stores the hundreds place digit |
+** Output
+#+begin_src
+Enter a three digit number: 153
+153 is an Armstrong number.
+#+end_src
+* 28
+** Variable Listing
+| Variable Name | Data Type | Description                       |
+|---------------+-----------+-----------------------------------|
+| prev          | double    | Stores the previous reading       |
+| current       | double    | Stores the current reading        |
+| u             | double    | Stores the difference in readings |
+| cost          | double    | Stores the final cost             |
+** Output
+#+begin_src
+Enter the previous reading: 80
+Enter the current reading: 300
+The cost is 600.0
 #+end_src
