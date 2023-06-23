@@ -5,7 +5,7 @@ Write a program to input three numbers and print in ascending order.
 import java.io.*;
 
 public class Program26 {
-    public static void main(String[] args) throws IOException {
+    public static void main() throws IOException {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
 
