@@ -9,7 +9,7 @@ Write a program to print the bill for the electricity office after entering the 
 import java.util.Scanner;
 
 public class Program28 {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the previous reading: ");
