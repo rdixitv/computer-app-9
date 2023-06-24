@@ -84,6 +84,12 @@
 - [[#28][28]]
   - [[#variable-listing-24][Variable Listing]]
   - [[#output-28][Output]]
+- [[#29][29]]
+  - [[#variable-listing-25][Variable Listing]]
+  - [[#output-29][Output]]
+- [[#30][30]]
+  - [[#variable-listing-26][Variable Listing]]
+  - [[#output-30][Output]]
 
 * 0
 ** Output
@@ -415,4 +421,26 @@ Enter a three digit number: 153
 Enter the previous reading: 80
 Enter the current reading: 300
 The cost is 600.0
+#+end_src
+* 29
+** Variable Listing
+| Variable Name | Data Type | Description               |
+|---------------+-----------+---------------------------|
+| d             | int       | Stores the digit          |
+| res           | String    | Stores the digit in words |
+** Output
+#+begin_src
+Enter a digit: 5
+five
+#+end_src
+* 30
+** Variable Listing
+| Variable Name | Data Type | Description              |
+|---------------+-----------+--------------------------|
+| day           | int       | Stores the digit         |
+| name          | String    | Stores the day           |
+** Output
+#+begin_src
+Enter number of day: 7
+Saturday
 #+end_src
