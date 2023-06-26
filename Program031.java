@@ -1,5 +1,5 @@
 /* Program 31
-Write a menu-driven program to calculate the area of a circle, or the perimeter, after entering the cjoice and radius (choice to be entered in character).
+Write a menu-driven program to calculate the area of a circle, or the perimeter, after entering the choice and radius (choice to be entered in character).
 26/04/23 */
 
 import java.util.Scanner;
