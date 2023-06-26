@@ -35,6 +35,6 @@ public class Program32 {
                 System.out.println("Invalid input.");
                 return;
         }
-        System.out.println("The area of the " + shape + " is " + a);
+        System.out.println("The area is " + a);
     }
 }

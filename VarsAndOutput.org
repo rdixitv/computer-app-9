@@ -485,5 +485,5 @@ iii. Triangle
 ii
 Enter the length: 12
 Enter the breadth: 21
-The area of the ii is 252.0
+The area is 252.0
 #+end_src
