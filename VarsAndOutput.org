@@ -90,6 +90,12 @@
 - [[#30][30]]
   - [[#variable-listing-26][Variable Listing]]
   - [[#output-30][Output]]
+- [[#31][31]]
+  - [[#variable-listing-27][Variable Listing]]
+  - [[#output-31][Output]]
+- [[#32][32]]
+  - [[#variable-listing-28][Variable Listing]]
+  - [[#output-32][Output]]
 
 * 0
 ** Output
@@ -443,4 +449,41 @@ five
 #+begin_src
 Enter number of day: 7
 Saturday
+#+end_src
+* 31
+** Variable Listing
+| Variable Name | Data Type | Description              |
+|---------------+-----------+--------------------------|
+| choice        | char      | Stores the user's choice |
+| r             | double    | Stores the radius        |
+| res           | double    | Stores the result        |
+** Output
+#+begin_src
+Enter your choice:
+a. Area of circle
+b. Perimeter of circle
+b
+Enter the radius of the circle: 12
+The perimeter of the circle is 75.36
+#+end_src
+* 32
+** Variable Listing
+| Variable Name | Data Type | Description                                       |
+|---------------+-----------+---------------------------------------------------|
+| shape         | String    | Stores the user's choice                          |
+| a             | double    | Stores the area                                   |
+| r             | double    | Stores the radius (circle)                        |
+| l             | double    | Stores the length (rectangle)                     |
+| b             | double    | Stores the breadth (rectangle) or base (triangle) |
+| h             | double    | Stores the height (triangle)                      |
+** Output
+#+begin_src
+Enter your choice:
+i. Circle
+ii. Rectangle
+iii. Triangle
+ii
+Enter the length: 12
+Enter the breadth: 21
+The area of the ii is 252.0
 #+end_src
