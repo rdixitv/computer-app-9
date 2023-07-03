@@ -96,6 +96,15 @@
 - [[#32][32]]
   - [[#variable-listing-28][Variable Listing]]
   - [[#output-32][Output]]
+- [[#33][33]]
+  - [[#variable-listing-29][Variable Listing]]
+  - [[#output-33][Output]]
+- [[#34][34]]
+  - [[#variable-listing-30][Variable Listing]]
+  - [[#output-34][Output]]
+- [[#35][35]]
+  - [[#variable-listing-31][Variable Listing]]
+  - [[#output-35][Output]]
 
 * 0
 ** Output
@@ -486,4 +495,49 @@ ii
 Enter the length: 12
 Enter the breadth: 21
 The area is 252.0
+#+end_src
+* 33
+** Variable Listing
+| Variable Name | Data Type | Description                  |
+|---------------+-----------+------------------------------|
+| i             | int       | Loop counter variable (1-20) |
+** Output
+#+begin_src
+1
+2
+3
+...
+18
+19
+20
+#+end_src
+* 34
+** Variable Listing
+| Variable Name | Data Type | Description                                |
+|---------------+-----------+--------------------------------------------|
+| i             | int       | Loop counter variable (20-40 even numbers) |
+** Output
+#+begin_src
+20
+22
+24
+...
+36
+38
+40
+#+end_src
+* 35
+** Variable Listing
+| Variable Name | Data Type | Description                               |
+|---------------+-----------+-------------------------------------------|
+| i             | int       | Loop counter variable (99-80 odd numbers) |
+** Output
+#+begin_src
+99
+97
+95
+..
+85
+83
+81
 #+end_src
