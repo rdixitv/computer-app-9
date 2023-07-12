@@ -105,6 +105,11 @@
 - [[#35][35]]
   - [[#variable-listing-31][Variable Listing]]
   - [[#output-35][Output]]
+- [[#36][36]]
+  - [[#variable-listing-32][Variable Listing]]
+  - [[#output-36][Output]]
+- [[#37][37]]
+  - [[#variable-listing-33][Variable Listing]]
 
 * 0
 ** Output
@@ -541,3 +546,23 @@ The area is 252.0
 83
 81
 #+end_src
+* 36
+** Variable Listing
+| Variable Name | Data Type | Description                  |
+|---------------+-----------+------------------------------|
+| i             | int       | Loop counter variable (1-15) |
+** Output
+#+begin_src
+1
+2
+3
+..
+13
+14
+15
+#+end_src
+* 37
+** Variable Listing
+| Variable Name | Data Type | Description |
+|---------------+-----------+-------------|
+| i             | int       |             |
