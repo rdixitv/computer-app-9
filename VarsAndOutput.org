@@ -110,6 +110,10 @@
   - [[#output-36][Output]]
 - [[#37][37]]
   - [[#variable-listing-33][Variable Listing]]
+  - [[#output-37][Output]]
+- [[#38][38]]
+  - [[#variable-listing-34][Variable Listing]]
+  - [[#output-38][Output]]
 
 * 0
 ** Output
@@ -563,6 +567,28 @@ The area is 252.0
 #+end_src
 * 37
 ** Variable Listing
-| Variable Name | Data Type | Description |
-|---------------+-----------+-------------|
-| i             | int       |             |
+| Variable Name | Data Type | Description                      |
+|---------------+-----------+----------------------------------|
+| n             | int       | Stores the number of odd numbers |
+| i             | int       | Loop counter variable            |
+** Output
+#+begin_src
+Enter the number of odd numbers to be printed: 10
+1
+2
+3
+..
+17
+18
+19
+#+end_src
+* 38
+** Variable Listing
+| Variable Name | Data Type | Description                   |
+|---------------+-----------+-------------------------------|
+| sum           | int       | Stores the sum of the numbers |
+| i             | int       | Loop counter variable         |
+** Output
+#+begin_src
+The sum of the first 10 natural numbers is: 55
+#+end_src
