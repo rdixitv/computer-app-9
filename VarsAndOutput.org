@@ -114,6 +114,15 @@
 - [[#38][38]]
   - [[#variable-listing-34][Variable Listing]]
   - [[#output-38][Output]]
+- [[#39][39]]
+  - [[#variable-listing-35][Variable Listing]]
+  - [[#output-39][Output]]
+- [[#40][40]]
+  - [[#variable-listing-36][Variable Listing]]
+  - [[#output-40][Output]]
+- [[#41][41]]
+  - [[#variable-listing-37][Variable Listing]]
+  - [[#output-41][Output]]
 
 * 0
 ** Output
@@ -591,4 +600,38 @@ Enter the number of odd numbers to be printed: 10
 ** Output
 #+begin_src
 The sum of the first 10 natural numbers is: 55
+#+end_src
+* 39
+** Variable Listing
+| Variable Name | Data Type | Description                   |
+|---------------+-----------+-------------------------------|
+| sum           | int       | Stores the sum of the numbers |
+| i             | int       | Loop counter variable         |
+** Output
+#+begin_src
+The sum of the first 10 even numbers is 110
+#+end_src
+* 40
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| prod          | long      | Stores the product                    |
+| n             | int       | Stores the number entered by the user |
+| i             | int       | Loop counter variable                 |
+** Output
+#+begin_src
+Enter the number of even numbers to find the product of: 5
+The product of the first 5 even numbers is 3840
+#+end_src
+* 41
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| fac           | long      | Stores the factorial                  |
+| n             | int       | Stores the number entered by the user |
+| i             | int       | Loop counter variable                 |
+** Output
+#+begin_src
+Enter a number: 5
+5! = 120
 #+end_src
