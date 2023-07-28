@@ -123,6 +123,15 @@
 - [[#41][41]]
   - [[#variable-listing-37][Variable Listing]]
   - [[#output-41][Output]]
+- [[#42][42]]
+  - [[#variable-listing-38][Variable Listing]]
+  - [[#output-42][Output]]
+- [[#43][43]]
+  - [[#variable-listing-39][Variable Listing]]
+  - [[#output-43][Output]]
+- [[#44][44]]
+  - [[#variable-listing-40][Variable Listing]]
+  - [[#output-44][Output]]
 
 * 0
 ** Output
@@ -634,4 +643,40 @@ The product of the first 5 even numbers is 3840
 #+begin_src
 Enter a number: 5
 5! = 120
+#+end_src
+* 42
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| rev           | int       | Stores the reversed number            |
+| i             | int       | Loop variable                         |
+** Output
+#+begin_src
+Enter a number: 1234
+The reverse of 1234 is 4321
+#+end_src
+* 43
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| rev           | int       | Stores the reversed number            |
+| i             | int       | Loop variable                         |
+** Output
+#+begin_src
+Enter a number: 1221
+1221 is a palindrome
+#+end_src
+* 44
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| flag          | boolean   | Stores if the number is prime or not  |
+| i             | int       | Loop variable                         |
+** Output
+#+begin_src
+Enter a number: 35
+35 is not a prime number.
 #+end_src
