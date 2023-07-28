@@ -1,4 +1,4 @@
-/* Program 28
+/* Program 44
 Design a class to input a number and print if it is a prime number or not.
 28/07/23 */
 
