@@ -132,6 +132,21 @@
 - [[#44][44]]
   - [[#variable-listing-40][Variable Listing]]
   - [[#output-44][Output]]
+- [[#45][45]]
+  - [[#variable-listing-41][Variable Listing]]
+  - [[#output-45][Output]]
+- [[#46][46]]
+  - [[#variable-listing-42][Variable Listing]]
+  - [[#output-46][Output]]
+- [[#47][47]]
+  - [[#variable-listing-43][Variable Listing]]
+  - [[#output-47][Output]]
+- [[#48][48]]
+  - [[#variable-listing-44][Variable Listing]]
+  - [[#output-48][Output]]
+- [[#49][49]]
+  - [[#variable-listing-45][Variable Listing]]
+  - [[#output-49][Output]]
 
 * 0
 ** Output
@@ -679,4 +694,66 @@ Enter a number: 1221
 #+begin_src
 Enter a number: 35
 35 is not a prime number.
+#+end_src
+* 45
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| prod          | int       | Stores the product                    |
+** Output
+#+begin_src
+Enter a number: 1234
+The product of the digits is 24
+#+end_src
+* 46
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| sum           | int       | Stores the sum                        |
+| i             | int       | Loop variable                         |
+** Output
+#+begin_src
+Enter a number: 12
+The sum of the factors of 12 is 28
+#+end_src
+* 47
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| evenSum       | int       | Stores the sum of the even digits     |
+| oddSum        | int       | Stores the sum of the odd digits      |
+| digit         | int       | Stores the current digit              |
+** Output
+#+begin_src
+Enter a number: 1234
+The sum of the even numbered digits is: 6
+The sum of the odd numbered digits is: 4
+#+end_src
+* 48
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| sum           | int       | Stores the sum                        |
+| i             | int       | Loop counter variable                 |
+| digit         | int       | Stores the current digit              |
+** Output
+#+begin_src
+Enter a number: 371
+371 is an Armstrong number.
+#+end_src
+* 49
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| sum           | int       | Stores the sum                        |
+| i             | int       | Loop variable                         |
+** Output
+#+begin_src
+Enter a number: 28
+28 is a perfect number.
 #+end_src
