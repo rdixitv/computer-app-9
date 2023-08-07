@@ -147,6 +147,24 @@
 - [[#49][49]]
   - [[#variable-listing-45][Variable Listing]]
   - [[#output-49][Output]]
+- [[#50][50]]
+  - [[#variable-listing-46][Variable Listing]]
+  - [[#output-50][Output]]
+- [[#51][51]]
+  - [[#variable-listing-47][Variable Listing]]
+  - [[#output-51][Output]]
+- [[#52][52]]
+  - [[#variable-listing-48][Variable Listing]]
+  - [[#output-52][Output]]
+- [[#53][53]]
+  - [[#variable-listing-49][Variable Listing]]
+  - [[#output-53][Output]]
+- [[#54][54]]
+  - [[#variable-listing-50][Variable Listing]]
+  - [[#output-54][Output]]
+- [[#55][55]]
+  - [[#variable-listing-51][Variable Listing]]
+  - [[#output-55][Output]]
 
 * 0
 ** Output
@@ -756,4 +774,88 @@ Enter a number: 371
 #+begin_src
 Enter a number: 28
 28 is a perfect number.
+#+end_src
+* 50
+** Variable Listing
+| Variable Name | Data Type | Description           |
+|---------------+-----------+-----------------------|
+| i             | int       | Loop counter variable |
+** Output
+#+begin_src
+1
+2
+3
+...
+18
+19
+20
+#+end_src
+* 51
+** Variable Listing
+| Variable Name | Data Type | Description           |
+|---------------+-----------+-----------------------|
+| i             | int       | Loop counter variable |
+** Output
+#+begin_src
+20
+22
+24
+...
+36
+38
+40
+#+end_src
+* 52
+** Variable Listing
+| Variable Name | Data Type | Description           |
+|---------------+-----------+-----------------------|
+| i             | int       | Loop counter variable |
+** Output
+#+begin_src
+99
+97
+95
+...
+85
+83
+81
+#+end_src
+* 53
+** Variable Listing
+| Variable Name | Data Type | Description           |
+|---------------+-----------+-----------------------|
+| i             | int       | Loop counter variable |
+** Output
+#+begin_src
+1
+2
+3
+...
+13
+14
+15
+#+end_src
+* 54
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| i             | int       | Loop counter variable                 |
+** Output
+#+begin_src
+Enter a number: 5
+1
+3
+5
+7
+9
+#+end_src
+* 55
+** Variable Listing
+| Variable Name | Data Type | Description |
+|---------------+-----------+-------------|
+| i             | int       | Loop counter variable |
+** Output
+#+begin_src
+The sum of the first 10 natural numbers is 55
 #+end_src
