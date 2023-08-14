@@ -165,6 +165,39 @@
 - [[#55][55]]
   - [[#variable-listing-51][Variable Listing]]
   - [[#output-55][Output]]
+- [[#56][56]]
+  - [[#variable-listing-52][Variable Listing]]
+  - [[#output-56][Output]]
+- [[#57][57]]
+  - [[#variable-listing-53][Variable Listing]]
+  - [[#output-57][Output]]
+- [[#58][58]]
+  - [[#variable-listing-54][Variable Listing]]
+  - [[#output-58][Output]]
+- [[#59][59]]
+  - [[#variable-listing-55][Variable Listing]]
+  - [[#output-59][Output]]
+- [[#60][60]]
+  - [[#variable-listing-56][Variable Listing]]
+  - [[#output-60][Output]]
+- [[#61][61]]
+  - [[#variable-listing-57][Variable Listing]]
+  - [[#output-61][Output]]
+- [[#62][62]]
+  - [[#variable-listing-58][Variable Listing]]
+  - [[#output-62][Output]]
+- [[#63][63]]
+  - [[#variable-listing-59][Variable Listing]]
+  - [[#output-63][Output]]
+- [[#64][64]]
+  - [[#variable-listing-60][Variable Listing]]
+  - [[#output-64][Output]]
+- [[#65][65]]
+  - [[#variable-listing-61][Variable Listing]]
+  - [[#output-65][Output]]
+- [[#66][66]]
+  - [[#variable-listing-62][Variable Listing]]
+  - [[#output-66][Output]]
 
 * 0
 ** Output
@@ -852,10 +885,145 @@ Enter a number: 5
 #+end_src
 * 55
 ** Variable Listing
-| Variable Name | Data Type | Description |
-|---------------+-----------+-------------|
+| Variable Name | Data Type | Description           |
+|---------------+-----------+-----------------------|
 | i             | int       | Loop counter variable |
 ** Output
 #+begin_src
 The sum of the first 10 natural numbers is 55
+#+end_src
+
+* 56
+** Variable Listing
+| Variable Name | Data Type | Description           |
+|---------------+-----------+-----------------------|
+| i             | int       | Loop counter variable |
+| sum           | int       | Stores the sum        |
+** Output
+#+begin_src
+The sum of the first 10 even numbers is 110
+#+end_src
+* 57
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| i             | int       | Loop counter variable                 |
+| prod          | long      | Stores the product                    |
+** Output
+#+begin_src
+Enter a number: 5
+The product of the first 5 even numbers is 3840
+#+end_src
+* 58
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| i             | int       | Loop counter variable                 |
+| fac           | long      | Stores the factorial                  |
+** Output
+#+begin_src
+Enter a number: 6
+6! = 720
+#+end_src
+* 59
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| rev           | int       | Stores the reversed number            |
+| i             | int       | Loop counter variable                 |
+** Output
+#+begin_src
+Enter a number: 4321
+The reverse of 4321 is 1234
+#+end_src
+* 60
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| rev           | int       | Stores the reversed number            |
+| i             | int       | Loop counter variable                 |
+** Output
+#+begin_src
+Enter a number: 12321
+12321 is a palindrome.
+#+end_src
+* 61
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| i             | int       | Loop counter variable                 |
+| flag          | boolean   | Stores if the number is prime or not  |
+** Output
+#+begin_src
+Enter a number: 97
+97 is a prime number.
+#+end_src
+* 62
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| prod          | int       | Stores the product                    |
+| i             | int       | Loop counter variable                 |
+| digit         | int       | Stores the current digit              |
+** Output
+#+begin_src
+Enter a number: 1024
+The product of the digits of 1024 is 8
+#+end_src
+* 63
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| i             | int       | Loop counter variable                 |
+| sum           | int       | Stores the sum                        |
+** Output
+#+begin_src
+Enter a number: 6
+The sum of the factors of 6 is 12
+#+end_src
+* 64
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| evenSum       | int       | Stores the sum of the even digits     |
+| oddSum        | int       | Stores the sum of the odd digits      |
+| digit         | int       | Stores the current digit              |
+** Output
+#+begin_src
+Enter a number: 4321
+The sum of the even numbered digits is 6
+The sum of the odd numbered digits is 4
+#+end_src
+* 65
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| sum           | int       | Stores the sum                        |
+| i             | int       | Loop counter variable                 |
+| digit         | int       | Stores the current digit              |
+** Output
+#+begin_src
+Enter a three-digit number: 370
+370 is an Armstrong number.
+#+end_src
+* 66
+** Variable Listing
+| Variable Name | Data Type | Description                           |
+|---------------+-----------+---------------------------------------|
+| n             | int       | Stores the number entered by the user |
+| i             | int       | Loop counter variable                 |
+| sum           | int       | Stores the sum                        |
+** Output
+#+begin_src
+Enter a number: 100
+100 is not a perfect number.
 #+end_src
