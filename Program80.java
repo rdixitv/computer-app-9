@@ -5,7 +5,7 @@ Design a class to input a number and print the sum of its factors.
 import java.util.Scanner;
 
 public class Program80 {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();

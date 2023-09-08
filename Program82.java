@@ -5,7 +5,7 @@ Design a class to input a three digit number and print whether it is an Armstron
 import java.util.Scanner;
 
 public class Program82 {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a three-digit number: ");
         int n = sc.nextInt();
