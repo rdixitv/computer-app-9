@@ -15,7 +15,7 @@ public class Program84 {
                 for (int i = 1; i <= 10; i++) {
                     System.out.print(i * i + ", ");
                 }
-                System.out.println();
+                System.out.println("\b\b ");
                 break;
             case 'b':
                 System.out.print("Enter number of terms: ");
