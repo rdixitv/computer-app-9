@@ -258,6 +258,15 @@
 - [[#86][86]]
   - [[#variable-listing-82][Variable Listing]]
   - [[#output-86][Output]]
+- [[#87][87]]
+  - [[#variable-listing-83][Variable Listing]]
+  - [[#output-87][Output]]
+- [[#88][88]]
+  - [[#variable-listing-84][Variable Listing]]
+  - [[#output-88][Output]]
+- [[#89][89]]
+  - [[#variable-listing-85][Variable Listing]]
+  - [[#output-89][Output]]
 
 * 0
 ** Output
@@ -1358,4 +1367,51 @@ Enter base number: 2
 @@@@
 @@@@
 @@@@
+#+end_src
+
+
+* 87
+** Variable Listing
+| Variable Name | Data Type | Description                         |
+|---------------+-----------+-------------------------------------|
+| i             | int       | Loop counter variable of outer loop |
+| j             | int       | Loop counter variable of inner loop |
+** Output
+#+begin_src
+1
+11
+111
+1111
+11111
+#+end_src
+
+* 88
+** Variable Listing
+| Variable Name | Data Type | Description                         |
+|---------------+-----------+-------------------------------------|
+| i             | int       | Loop counter variable of outer loop |
+| j             | int       | Loop counter variable of inner loop |
+** Output
+#+begin_src
+11111
+1111
+111
+11
+1
+#+end_src
+
+* 89
+** Variable Listing
+| Variable Name | Data Type | Description                         |
+|---------------+-----------+-------------------------------------|
+| c             | int       | Stores the number to be printed     |
+| i             | int       | Loop counter variable of outer loop |
+| j             | int       | Loop counter variable of inner loop |
+** Output
+#+begin_src
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
 #+end_src
