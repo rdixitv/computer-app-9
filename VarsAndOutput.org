@@ -267,6 +267,15 @@
 - [[#89][89]]
   - [[#variable-listing-85][Variable Listing]]
   - [[#output-89][Output]]
+- [[#90][90]]
+  - [[#variable-listing-86][Variable Listing]]
+  - [[#output-90][Output]]
+- [[#91][91]]
+  - [[#variable-listing-87][Variable Listing]]
+  - [[#output-91][Output]]
+- [[#92][92]]
+  - [[#variable-listing-88][Variable Listing]]
+  - [[#output-92][Output]]
 
 * 0
 ** Output
@@ -1414,4 +1423,63 @@ Enter base number: 2
 4 5 6
 7 8 9 10
 11 12 13 14 15
+#+end_src
+* 90
+** Variable Listing
+| Variable Name | Data Type | Description                         |
+|---------------+-----------+-------------------------------------|
+| i             | int       | Loop counter variable of outer loop |
+| j             | int       | Loop counter variable of inner loop |
+** Output
+#+begin_src
+1
+22
+333
+4444
+55555
+#+end_src
+* 91
+** Variable Listing
+| Variable Name | Data Type | Description                          |
+|---------------+-----------+--------------------------------------|
+| i             | int       | Loop counter variable of outer loops |
+| j             | int       | Loop counter variable of inner loops |
+** Output
+#+begin_src
+a
+aa
+aaa
+aaaa
+aaaaa
+aaaa
+aaa
+aa
+a
+#+end_src
+* 92
+** Variable Listing
+| Variable Name | Data Type | Description                              |
+|---------------+-----------+------------------------------------------|
+| rollno        | int       | Stores the student's roll number         |
+| grade         | int       | Stores the student's class               |
+| name          | String    | Stores the student's name                |
+| sum           | double    | Stores the sum of a student's marks      |
+| i             | int       | Loop counter variable for the outer loop |
+| j             | int       | Loop counter variable for the inner loop |
+** Output
+#+begin_src
+Enter roll number: 5
+Enter name: R
+Enter class: 9
+Enter subject 1 marks: 97.5
+Enter subject 2 marks: 97
+Enter subject 3 marks: 100
+...
+Enter subject 10 marks: 97
+5. R
+Class - 9
+Avg - 96.325
+
+Enter roll number: 10
+...
 #+end_src
